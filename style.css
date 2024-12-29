@@ -1,0 +1,29 @@
+.titulo {
+  background-color: blue;
+  width: 590px;
+  color: white;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.rodape {
+  font-size: 25px;
+  margin-top: 55%;
+}
+.header {
+  background-image: url(sonic.jpg);
+  background-size: cover; /* define que a imagem de fundo deve cobrir todo o contêiner, mesmo que seja necessário esticar ou cortar a imagem */
+  background-position: 50% 25%; /* ajusta a posição do background na horizontal (primeiro valor) e vertical (segundo valor) mexe na posição inicial da imagem, que por padrão é posicionada no topo da esquerda*/
+  padding: 60px 30px 40px 30px;
+}
+.header-content {
+  max-width: 60%; /* é uma propriedade do CSS que define a largura máxima que um elemento pode ter. Ela é útil para impedir que os elementos se expandam demais em telas maiores, o que pode prejudicar a usabilidade e a legibilidade do site */
+}
+
+.header-text {
+  max-width: 80%;
+  text-align: center;  
+}
+
+.header-text p {
+  margin-bottom: 30px;
+}
