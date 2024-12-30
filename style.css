@@ -31,6 +31,25 @@
 .header-text p {
   margin-bottom: 30px;
 }
+.characters {
+  padding: 20px 20px 20px 20px;
+}
+.characters-text {
+  width: 80%;
+  margin: auto;
+}
 .characters-text p {
-  margin: 1px 5px 50px 200px;
+  margin: 1px 5px 5px 3px;
+}
+.float-right {
+  float: right;
+  background-color: aqua;
+  margin-left: 30%;
+  margin-top: -30%;
+}
+.float-right-eggman {
+  float: right;
+  background-color: aqua;
+  margin-left: 30%;
+  margin-top: -23%;
 }
