@@ -1,3 +1,7 @@
+.char-img {
+  width: 150px;
+}
+
 .titulo {
   background-color: blue;
   width: 590px;
@@ -10,7 +14,7 @@
   margin-top: 55%;
 }
 .header {
-  background-image: url(sonic.jpg);
+  background-image: url(./img/sonic.jpg);
   background-size: cover; /* define que a imagem de fundo deve cobrir todo o contêiner, mesmo que seja necessário esticar ou cortar a imagem */
   background-position: 50% 25%; /* ajusta a posição do background na horizontal (primeiro valor) e vertical (segundo valor) mexe na posição inicial da imagem, que por padrão é posicionada no topo da esquerda*/
   padding: 60px 30px 40px 30px;
@@ -26,4 +30,7 @@
 
 .header-text p {
   margin-bottom: 30px;
+}
+.characters-text p {
+  margin: 1px 5px 50px 200px;
 }
